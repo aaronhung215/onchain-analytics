@@ -6,15 +6,16 @@ analytics: discover the data, write DuneSQL, iterate, publish public dashboards.
 
 ## Status
 
-🚧 In progress. Building toward published dashboards + a write-up. This README
-will link to live dashboards as they go public — until then, treat items below
-as work in progress, not finished results.
+📊 **1 of 2 dashboards live.** The Ethereum DEX market share dashboard is published
+on Dune; the stablecoin holder dashboard and the short write-up tying both together
+are still in progress. Until row 2 of the table below shows a link, treat the
+stablecoin analysis as work in progress, not a finished result.
 
 ## Planned analyses
 
 | # | Analysis | Query | Dashboard |
 |---|---|---|---|
-| 1 | Ethereum DEX volume by project, daily trend | `queries/eth_dex_volume.sql` | _pending_ |
+| 1 | Ethereum DEX market share (weekly share, 90d snapshot, daily volume) | `queries/eth_dex_volume.sql`, `queries/eth_dex_weekly_share.sql` | [ETH DEX Market Share — 90d](https://dune.com/aaronpk/ethereum-dex-market-share-90d) |
 | 2 | Stablecoin holder concentration (top-N share of supply) | `queries/stablecoin_holders.sql` | _pending_ |
 
 Published dashboard URLs + one-line insights are tracked in `dashboards.md`.
