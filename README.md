@@ -6,17 +6,17 @@ analytics: discover the data, write DuneSQL, iterate, publish public dashboards.
 
 ## Status
 
-📊 **1 of 2 dashboards live.** The Ethereum DEX market share dashboard is published
-on Dune; the stablecoin holder dashboard and the short write-up tying both together
-are still in progress. Until row 2 of the table below shows a link, treat the
-stablecoin analysis as work in progress, not a finished result.
+📊 **2 of 2 dashboards live.** Both the Ethereum DEX market share dashboard and
+the USDC holder concentration dashboard are published on Dune. The short write-up
+tying both together is still in progress — until that's done, treat the synthesis
+as work-in-progress (the individual dashboards stand on their own).
 
 ## Planned analyses
 
 | # | Analysis | Query | Dashboard |
 |---|---|---|---|
 | 1 | Ethereum DEX market share (weekly share, 90d snapshot, daily volume) | `queries/eth_dex_volume.sql`, `queries/eth_dex_weekly_share.sql` | [ETH DEX Market Share — 90d](https://dune.com/aaronpk/ethereum-dex-market-share-90d) |
-| 2 | Stablecoin holder concentration (top-N share of supply) | `queries/stablecoin_holders.sql` | _pending_ |
+| 2 | USDC holder concentration on Ethereum (bucket shares + top-10 holders) | `queries/stablecoin_holders.sql`, `queries/stablecoin_top_holders.sql` | [USDC Holder Concentration — Ethereum](https://dune.com/aaronpk/usdc-holder-concentration-ethereum) |
 
 Published dashboard URLs + one-line insights are tracked in `dashboards.md`.
 
